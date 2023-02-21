@@ -13,6 +13,9 @@ function Condition() {
                 <button className='satisfaction'></button>
                 <button className='very_satisfaction'></button>
             </div>
+            <h5>나쁨&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;보통&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;좋음</h5>
+            
+            
             <div className='test2'>
                 <h3>&nbsp;&nbsp;&nbsp;잘 주무셨나요</h3>
                 <button className='very_dissatisfied'></button>
@@ -21,6 +24,7 @@ function Condition() {
                 <button className='satisfaction'></button>
                 <button className='very_satisfaction'></button>
             </div>
+            <h5>나쁨&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;보통&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;좋음</h5>
             <div className='test3'>
                 <h3>&nbsp;&nbsp;&nbsp;현재 기분은 어떠신가요</h3>
                 <button className='very_dissatisfied'></button>
@@ -29,6 +33,7 @@ function Condition() {
                 <button className='satisfaction'></button>
                 <button className='very_satisfaction'></button>
             </div>
+            <h5>나쁨&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;보통&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;좋음</h5>
             <div className='test4'>
                 <h3>&nbsp;&nbsp;&nbsp;스트레스 수준은 어느 정도이신가요</h3>
                 <button className='very_dissatisfied'></button>
@@ -37,6 +42,7 @@ function Condition() {
                 <button className='satisfaction'></button>
                 <button className='very_satisfaction'></button>
             </div>
+            <h5>나쁨&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;보통&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;좋음</h5>
         </div>
     )
 }
