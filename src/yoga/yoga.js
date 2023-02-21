@@ -7,13 +7,18 @@ import yoga1 from './img/yoga1.png'
 import yoga2 from './img/yoga2.png'
 import yoga3 from './img/yoga3.png'
 import yoga4 from './img/yoga4.png'
+import anxiety1 from './img/anxiety1.png'
+import anxiety2 from './img/anxiety2.png'
+import anxiety3 from './img/anxiety3.png'
+import anxiety4 from './img/anxiety4.png'
 import './yoga.css';
 
 function Yoga () {
     return (
+        
         <div className='Card1'>
             <div className='c1image'>
-                <h3>오늘은 명상 어때요?</h3>
+                <h3>&nbsp;&nbsp;&nbsp;마음을 편안하게 명상</h3>
                 <hr width = "90%"></hr>
                 <a href="https://www.youtube.com/watch?v=yiysD0Jl2Wo">
                     <img className='meditation1' alt="image" src={meditation1} />
@@ -30,7 +35,7 @@ function Yoga () {
                 <hr width = "90%"></hr>
             </div>
             <div className='c2image'>
-                <h3>몸을 유연하게 해볼까요가?</h3>
+                <h3>&nbsp;&nbsp;&nbsp;몸을 유연하게 해볼까요가?</h3>
                 <hr width = "90%"></hr>
                 <a href="https://www.youtube.com/watch?v=1W9gMxLoW6Q">
                     <img className='yoga1' alt="image" src={yoga1} />
@@ -43,6 +48,23 @@ function Yoga () {
                 </a>
                 <a href="https://www.youtube.com/watch?v=OBTl49bVk94">
                     <img className='yoga4' alt="image" src={yoga4} />
+                </a>
+                <hr width = "90%"></hr>
+            </div>
+            <div className='c3image'>
+                <h3>&nbsp;&nbsp;&nbsp;불안을 없애는 명상</h3>
+                <hr width = "90%"></hr>
+                <a href="https://www.youtube.com/watch?v=cvPS_25gRPs">
+                    <img className='anxiety1' alt="image" src={anxiety1} />
+                </a>
+                <a href="https://www.youtube.com/watch?v=kmdqb6Iv5-4">
+                    <img className='anxiety2' alt="image" src={anxiety2} />
+                </a>
+                <a href="https://www.youtube.com/watch?v=7BthVsfkoWU">
+                    <img className='anxiety3' alt="image" src={anxiety3} />
+                </a>
+                <a href="https://www.youtube.com/watch?v=at4NzMuQiP4">
+                    <img className='anxiety4' alt="image" src={anxiety4} />
                 </a>
                 <hr width = "90%"></hr>
             </div>
