@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faUser, faTimes, faHeart } from "@fortawesome/free-solid-svg-icons";
-import Yoga from "./yoga/yoga";
-import Condition from "./Condition";
 
 const Header = styled.div`
   max-width: 1280px;
